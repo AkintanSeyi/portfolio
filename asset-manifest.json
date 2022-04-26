@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.af0d047c.css",
+    "main.js": "/portfolio/static/js/main.8ea1d746.js",
+    "static/media/15.jpg": "/portfolio/static/media/15.701c3f7ad50ceaeff751.jpg",
+    "static/media/16.jpg": "/portfolio/static/media/16.de5659898d3bfc5eb8ea.jpg",
+    "static/media/warrior-kneeling-wallpaper-2560x2048_33.jpg": "/portfolio/static/media/warrior-kneeling-wallpaper-2560x2048_33.c4b62eec7da1f9fe3292.jpg",
+    "static/media/dancing-script-all-400-normal.woff": "/portfolio/static/media/dancing-script-all-400-normal.7aedb59dab3b441b8447.woff",
+    "static/media/dancing-script-latin-400-normal.woff2": "/portfolio/static/media/dancing-script-latin-400-normal.a88bfabf57c5909cdefe.woff2",
+    "static/media/dancing-script-latin-ext-400-normal.woff2": "/portfolio/static/media/dancing-script-latin-ext-400-normal.fa3408e5c0098fde83cc.woff2",
+    "static/media/dancing-script-vietnamese-400-normal.woff2": "/portfolio/static/media/dancing-script-vietnamese-400-normal.b88a103c555f42370db3.woff2",
+    "index.html": "/portfolio/index.html",
+    "main.af0d047c.css.map": "/portfolio/static/css/main.af0d047c.css.map",
+    "main.8ea1d746.js.map": "/portfolio/static/js/main.8ea1d746.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af0d047c.css",
+    "static/js/main.8ea1d746.js"
+  ]
+}
