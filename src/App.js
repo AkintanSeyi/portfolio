@@ -2,12 +2,12 @@ import React from "react";
 
 import Index3 from "./index3";
 import  './main.css';
-import { BrowserRouter as Router  , Route, Routes  } from "react-router-dom";
+import { Route, Routes  } from "react-router-dom";
 
 const Index1 = () => {
            return (
 
-           <Router>
+           
 
 <Routes>
 
@@ -15,7 +15,7 @@ const Index1 = () => {
    
 </Routes> 
 
-           </Router>
+          
 
        
            )
