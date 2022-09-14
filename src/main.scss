@@ -6,7 +6,7 @@
       margin: 0;
       box-sizing: border-box;
     }
-    
+
     html {
       font-size: 62.5%;
       font-family: sans-serif;
@@ -15,18 +15,18 @@
           }
 
     }
-    
+
     body {
       font-size: 1.5rem;
       color: black;
       line-height: 1.4;
       font-family: sans-serif;
-     
-      
+
+
     }
 
 
-    
+
     .main {
       font-size: 1.5rem;
       color: black;
@@ -37,17 +37,17 @@ overflow-x: hidden;
      &::-webkit-scrollbar {
       display: none;
     }
-     
-    
+
+
     }
 
-    
+
 
 
     .section {
       width: 100%;
       height: fit-content;
-    
+
     }
 
 
@@ -65,7 +65,7 @@ overflow-x: hidden;
      top: 0;
      left: 0;
      color: white;
-    
+
      text-transform: capitalize;
 background-image: url('../public/web-port-img/16.jpg');
 background-size: cover;
@@ -100,7 +100,7 @@ font-weight: 600;
           width: 100vw;
           padding-left: 1rem;
         }
-        
+
 
    }
 
@@ -142,7 +142,7 @@ cursor: pointer;
       width: 100vw;
       height: 100vh;
       position: relative;
- 
+
     background-image: url('../public/web-port-img/15.jpg');
     background-size: cover;
 font-size: 1.6rem;
@@ -154,29 +154,29 @@ animation: roate2 4s linear infinite 1.5s;
 height: 90vh;
 
       }
- 
+
 
 
    &__holder {
      width: 100%;
      height: 100%;
-     
+
    }
 
 
-      
+
    &__video {
     height: 100%;
     width: 100%;
     object-fit: cover;
    opacity: .7;
 
- 
-  
-  
-  
+
+
+
+
   }
-  
+
   &__video-holder {
     width: 100%;
     height: 100%;
@@ -185,10 +185,10 @@ height: 90vh;
     top: 0;
     left: 0;
 
-   
+
   }
 
-  
+
 
       &__line {
         width: 5rem;
@@ -201,25 +201,25 @@ height: 90vh;
         margin-top: .5rem;
        margin-right: 9rem;
        cursor: pointer;
-       
+
         @media only screen and (max-width: 43.75em) {
-        
+
           display: block;
-               
+
           }
           @media only screen and (max-width: 37.5em) {
             top: 8%;
             margin-right: 6rem;
-                 
+
         }
-         
-      
-      
+
+
+
       }
-    
+
       &__line::before {
         content: "";
-       
+
         background-color:rgb(255, 232, 56) ;
        width: 3rem;
        border-radius: .5rem;
@@ -229,26 +229,26 @@ height: 90vh;
         position: absolute;
         top: .75rem;
      right: 20%;
-        
+
       }
 
       &__line::after {
         content: "";
-      
-  
+
+
 
         background-color:rgb(255, 232, 56) ;
-  
+
        width: 3rem;
        border-radius: .5rem;
        cursor: pointer;
         height: .5rem;
         top: -.75rem;
         position: absolute;
-       
-       
+
+
         right: 40%;
-        
+
       }
 
 
@@ -302,74 +302,74 @@ height: 90vh;
     height: 5rem;
     animation: roate 5.7s linear infinite ;
  opacity:   .25;
-    
-    
+
+
   }
 
-  
+
   @keyframes roate1 {
     0% {
       transform: scale(0) rotateY(0deg);
-    
-      
+
+
     }
     50% {
       transform: scale(1) rotateY(500deg) ;
-     
-     
+
+
     }
-    
+
     100%{
       transform: scale(2.5) rotateY(1000deg);
-    
+
     }
-    
+
   }
 
   @keyframes roate2 {
     0% {
       background: black;
-     
-      
+
+
     }
     50% {
       background: black;
-      
-     
+
+
     }
     70% {
       background: black;
     }
-    
+
     100%{
       background: rgba(0, 0, 0, 0.8);
-      
-     
-  
+
+
+
     }
-    
+
   }
 
 @keyframes roate {
   0% {
     transform: scale(0) rotateY(0deg);
-   
-    
+
+
   }
   50% {
     transform: scale(2.5) rotateY(500deg) ;
-    
-   
+
+
   }
   100%{
     transform: scale(5.2) rotateY(1000deg);
-    
-   
+
+
 
   }
-  
+
 }
-  
+
   &__main{
 color: white;
 position: absolute;
@@ -379,7 +379,7 @@ position: absolute;
    left: 50%;
    transform: translate(-50% , -50%);
   }
-   
+
   &__h2{
     font-size: 7rem;
     font-family: "Dancing script";
@@ -387,17 +387,17 @@ position: absolute;
     text-align: center;
     background-image: linear-gradient(to bottom,rgb(255, 232, 56), rgb(253, 87, 191) );
    color: transparent;
-  
+
     -webkit-background-clip: text;
     @media only screen and (max-width: 37.5em) {
       font-size: 5rem;
   }
-  
-  }
-  
- 
 
-   
+  }
+
+
+
+
   &__set{
     text-align: center;
     font-size: 2rem;
@@ -407,45 +407,45 @@ position: absolute;
   }
   }
 
-   
+
   &__p1{
     background-image: linear-gradient(to right,rgb(255, 232, 56), rgb(253, 87, 191) );
     color: transparent;
-   
+
      -webkit-background-clip: text;
 
-    
+
   }
 
   &__p3{
     background-image: linear-gradient(to left,rgb(255, 232, 56), rgb(253, 87, 191) );
     color: transparent;
-   
+
      -webkit-background-clip: text;
   }
-     
+
   &__p2{
     background-image: linear-gradient(to bottom,rgb(255, 232, 56), rgb(253, 87, 191) );
     color: transparent;
-   
+
      -webkit-background-clip: text;
   }
 
 
-   
+
   &__icon-hol{
     text-align: center;
     margin-top: 1rem;
   }
 
-   
+
   &__icon{
     margin-right: .8rem;
     border-radius: 50%;
     font-size: 3rem;
   }
 
-   
+
   &__p4{
     text-align: center;
     font-size: 2.5rem;
@@ -463,42 +463,42 @@ position: absolute;
   }
 
 
-  
+
 @keyframes roate4 {
   0% {
     transform: scale(0) rotateY(0deg);
-   
-    
+
+
   }
   50% {
     transform: scale(.5) rotateY(500deg) ;
-    
-   
+
+
   }
   100%{
     transform: scale(1) rotateY(1000deg);
-    
-   
+
+
 
   }
-  
+
 }
-   
+
   &__{
-    
+
   }
 
-   
+
   &__{
-    
+
   }
 
-   
+
   &__{
-    
+
   }
 
-   
+
 
 
 
@@ -512,13 +512,13 @@ position: absolute;
 
     .second-section {
 width: 100vw;
-height: 100vh;
+height: 120vh;
 font-size: 1.6rem;
 
 //animation: set2 10s linear 1 ;
 
 @media only screen and (max-width: 62.5em) {
- height: 80vh;
+ height: 90vh;
      }
      @media only screen and (max-width: 31.25em) {
       height: fit-content;
@@ -529,27 +529,27 @@ font-size: 1.6rem;
 
 @keyframes set5 {
   0% {
-    
+
    background-color: white;
-    
+
   }
   10% {
     background-color: rgb(172, 15, 219);
-   
+
   }
 
   20% {
-   
+
     background-color: rgb(255, 196, 0);
-   
+
   }
   30% {
-  
+
     background-color: rgb(233, 13, 167);
-   
+
   }
   40% {
-   
+
    background-color: rgb(247, 64, 9);
 
   }
@@ -560,7 +560,7 @@ background-color: rgb(115, 241, 11);
 
   60% {
     background-color: rgb(31, 7, 248);
-   
+
   }
 70% {
   background-color: crimson;
@@ -574,10 +574,10 @@ background-color: rgb(115, 241, 11);
 
 
   90% {
-  
+
     background-color: rgb(250, 8, 28);
-  
- 
+
+
   }
   100% {
     background-color: white;
@@ -585,35 +585,35 @@ background-color: rgb(115, 241, 11);
   }
 
 
-  
-  
+
+
 }
 
 
 
 @keyframes set4 {
   0% {
-    
+
    color: white;
-    
+
   }
   10% {
     color: rgb(172, 15, 219);
-   
+
   }
 
   20% {
-   
+
     color: rgb(255, 196, 0);
-   
+
   }
   30% {
-  
+
     color: rgb(233, 13, 167);
-   
+
   }
   40% {
-   
+
    color: rgb(247, 64, 9);
 
   }
@@ -624,7 +624,7 @@ color: rgb(115, 241, 11);
 
   60% {
     color: rgb(31, 7, 248);
-   
+
   }
 70% {
   color: crimson;
@@ -638,10 +638,10 @@ color: rgb(115, 241, 11);
 
 
   90% {
-  
+
     color: rgb(250, 8, 28);
-  
- 
+
+
   }
   100% {
     color: white;
@@ -649,37 +649,37 @@ color: rgb(115, 241, 11);
   }
 
 
-  
-  
+
+
 }
 
 
 
 @keyframes set2 {
   0% {
-    
-  
+
+
    border: .35rem solid rgb(11, 206, 175);
-    
+
   }
   10% {
-    
+
     border: .35rem solid  rgb(115, 241, 11) ;
   }
 
   20% {
-   
-  
+
+
     border: .35rem solid rgb(31, 7, 248);
   }
   30% {
-  
-    
+
+
     border: .35rem solid    crimson;
   }
   40% {
-   
-  
+
+
    border: .35rem solid    rgb(9, 217, 245);
   }
   50% {
@@ -688,25 +688,25 @@ border: .35rem solid    white;
   }
 
   60% {
-  
+
     border: .35rem solid   rgb(255, 196, 0);
   }
 70% {
-  
+
   border: .35rem solid    rgb(233, 13, 167);
 }
 
 80%  {
-  
+
   border:.35rem solid    crimson;
 }
 
 
   90% {
-  
-   
+
+
     border: .35rem solid    rgb(115, 241, 11);
- 
+
   }
   100% {
 
@@ -714,7 +714,7 @@ border: .35rem solid    white;
   }
 
 
-  
+
 }
 
       &__holder {
@@ -729,32 +729,33 @@ border: .35rem solid    white;
         @media only screen and (max-width: 62.5em) {
     padding-top: 5rem;
              }
-   
-     
+
+
 
       }
 
-     
+
 
       &__img{
-    
+
       }
-    
-       
+
+
       &__2{
         width: 100%;
-      
+        height: 100%;
+
       }
-    
-       
+
+
       &__2-head{
         text-align: center;
         position: relative;
         top: 0;
         left: 0;
       }
-    
-       
+
+
       &__h2{
         font-size: 8rem;
         text-transform: capitalize;
@@ -772,7 +773,7 @@ transform: translate(-50%  , -50%);
 text-transform: capitalize;
 color: white;
       }
-    
+
 
       &__ul{
         margin-top: 4rem;
@@ -791,8 +792,8 @@ color: white;
   }
 
       }
-    
-       
+
+
       &__li{
         width: fit-content;
         padding: .5rem;
@@ -810,51 +811,51 @@ color: white;
         }
       }
 
-    
-    
-       
+
+
+
       &__service{
         text-transform: capitalize;
         font-size: 2.5rem;
         text-shadow: 0rem 1.5rem 2rem rgb(11, 206, 175) , 0rem -1.5rem 2rem rgb(11, 206, 175) , 1.5rem 0rem 2rem rgb(11, 206, 175) ,  -1.5rem 0rem 2rem rgb(11, 206, 175)  ;
-      margin-top: 8rem;
+      margin-top: -5rem;
         animation: set3 5s linear infinite ;
         cursor: pointer;
       }
 
-        
+
 @keyframes set3 {
   0% {
-    
+
     text-shadow: 0rem 0rem 0rem rgb(233, 13, 167) , 0rem 0rem 0rem rgb(233, 13, 167) , 0rem 0rem 0rem rgb(233, 13, 167) ,  0rem 0rem 0rem rgb(233, 13, 167) ;
-      
-    
+
+
   }
   25% {
     text-shadow: 0rem .5rem .5rem rgb(255, 196, 0) , 0rem -.5rem .5rem rgb(255, 196, 0), .5rem 0rem .5rem rgb(255, 196, 0) ,  -.5rem 0rem .5rem rgb(255, 196, 0) ;
-      
+
   }
   50% {
     text-shadow: 0rem 1rem 1rem rgb(11, 206, 175) , 0rem -1rem 1rem rgb(11, 206, 175) , 1rem 0rem 1rem rgb(11, 206, 175) ,  -1rem 0rem 1rem rgb(11, 206, 175)  ;
-      
-    
-   
+
+
+
   }
   75% {
     text-shadow: 0rem 1.5rem 1.5rem rgb(247, 64, 9), 0rem -1.5rem 1.5rem rgb(247, 64, 9), 1.5rem 0rem 1.5rem  rgb(247, 64, 9),  -1.5rem 0rem 1.5rem rgb(247, 64, 9)  ;
-      
+
   }
   100%{
     text-shadow: 0rem 1.5rem 2rem rgb(115, 241, 11) , 0rem -1.5rem 2rem rgb(115, 241, 11) , 1.5rem 0rem 2rem rgb(115, 241, 11) ,  -1.5rem 0rem 2rem rgb(115, 241, 11) ;
-      
+
 
   }
-  
+
 }
-    
-       
-     
-    
+
+
+
+
 
 
 
@@ -909,9 +910,9 @@ text-align: center;
                       @media only screen and (max-width: 37.5em) {
                         padding: 0rem 1rem 3rem 1rem;
                     }
-                 
+
       }
-    
+
 
       &__p{
     font-size: 2rem;
@@ -924,8 +925,8 @@ text-align: center;
     font-size: 1.5rem;
 }
       }
-    
-       
+
+
       &__h2{
         text-transform: capitalize;
         font-size: 3.5rem;
@@ -936,21 +937,21 @@ text-align: center;
           font-size: 2.5rem;
       }
       }
-    
-       
+
+
       &__line{
         width: 20rem;
         height: .5rem;
-        
-         
+
+
         animation: set5 20s linear infinite ;
         border-radius: 1rem;
         @media only screen and (max-width: 37.5em) {
          width: 15rem;
       }
       }
-    
-       
+
+
       &__1{
         display: flex;
         align-items: center;
@@ -973,18 +974,18 @@ background-color: lightgray;
           font-size: 1.3rem;
       }
 
-    
-      
-      }
-    
 
-      
-    
-       
-      &__{
-        
+
       }
-    
+
+
+
+
+
+      &__{
+
+      }
+
 
 
 
@@ -999,7 +1000,7 @@ background-color: lightgray;
     //////////////////////////////////////////////////////////////////
     //////////////////////////////  fourth-section
 
-  
+
 
 
     .fourth-section {
@@ -1015,7 +1016,7 @@ width: 100%;
 height: 100%;
 
        }
-  
+
 
        &__link2 {
          text-decoration: none;
@@ -1035,12 +1036,12 @@ height: 100%;
               @media only screen and (max-width: 43.75em) {
                 height: fit-content;
                       }
-         
+
       }
-    
-       
-      
-       
+
+
+
+
       &__set{
       width: 100%;
       height: 30rem;
@@ -1052,7 +1053,7 @@ height: 100%;
       margin-bottom: 0rem;
             }
       }
-      
+
       &__set-holder{
         width: 100%;
         height: 100%;
@@ -1062,10 +1063,10 @@ height: 100%;
         @media only screen and (max-width: 43.75em) {
         display: block;
                 }
- 
+
       }
-    
-       
+
+
       &__1{
         width: 40%;
         padding: 4rem 4rem 4rem 7rem;
@@ -1079,14 +1080,14 @@ height: 100%;
                   padding: 3rem 3rem 1rem 5rem;
               }
       }
-    
-       
+
+
       &__1-holder{
         width: 100%;
         position: relative;
        display: flex;
- 
-       
+
+
       }
       &__1-p {
         position: absolute;
@@ -1096,7 +1097,7 @@ height: 100%;
         width: fit-content;
         height: 3.8rem;
    border-radius: .5rem;
- 
+
         padding: 1rem;
         font-size: 1.7rem;
             font-weight: 550;
@@ -1113,13 +1114,13 @@ height: 100%;
 
       }
 
-  
+
 
 
  &__1-p:hover + &__img {
         width: 70%;
         }
-        
+
 
 
 
@@ -1133,7 +1134,7 @@ transition: all 1s;
 
 
 &:hover {
- 
+
   filter: blur(1px) brightness(35%);
 
 }
@@ -1145,15 +1146,15 @@ transition: all 1s;
   transform: translateY(-50%) translateX(-50%)
 }
 
-   
-  
-      
-      
+
+
+
+
       &__link{
-    
+
       }
-    
-       
+
+
       &__2{
         width: 60%;
         padding-right: 5rem;
@@ -1168,21 +1169,21 @@ transition: all 1s;
                   padding: .5rem 3rem 3rem 5.5rem;
               }
       }
-    
-       
+
+
       &__h2{
         text-transform: capitalize;
         font-size: 3.5rem;
         background-image: linear-gradient(to bottom,rgb(255, 232, 56), rgb(253, 87, 191) );
    color: transparent;
-  
+
     -webkit-background-clip: text;
 font-family: serif;
 @media only screen and (max-width: 37.5em) {
   font-size: 2.5rem;
 }
       }
-      
+
       &__p{
         font-size: 2rem;
       font-family: serif;
@@ -1192,15 +1193,15 @@ font-family: serif;
         font-size: 1.5rem;
     }
       }
-    
-       
+
+
       &__but-holder{
      margin-top: 5rem;
      @media only screen and (max-width: 37.5em) {
       margin-top: 2rem;
   }
       }
-      
+
       &__but1{
     width: fit-content;
     height: 4rem;
@@ -1217,8 +1218,8 @@ font-family: serif;
       font-size: 1.4rem;
   }
       }
-    
-       
+
+
       &__but2{
         width: fit-content;
         background-color: lightgray;
@@ -1227,16 +1228,16 @@ font-family: serif;
         font-size: 1.7rem;
         cursor: pointer;
         font-weight: 550;
-        
+
         text-transform: capitalize;
         border-radius: .3rem;
         @media only screen and (max-width: 37.5em) {
           font-size: 1.4rem;
       }
       }
-    
-       
-    
+
+
+
 
 
 
@@ -1251,7 +1252,7 @@ font-family: serif;
     .contact {
       width: 100vw;
       height: 80vh;
-    
+
       color: white;
       animation: set6 20s linear infinite ;
       background: black;
@@ -1271,12 +1272,12 @@ font-family: serif;
         align-items: center;
         flex-direction: column;
        margin-top: 2rem;
-      
+
       }
     &__link2 {
-      
+
     }
-       
+
       &__icon-hold{
 display: flex;
 margin-left: 12rem;
@@ -1289,10 +1290,10 @@ margin-left: 12rem;
 margin-left: 6rem;
 }
 
-        
+
       }
-    
-       
+
+
       &__icon{
         font-size: 5rem;
         margin-right: 12rem;
@@ -1301,7 +1302,7 @@ transition: all .5s;
         &:hover {
           animation: set4 20s linear infinite ;
           cursor: pointer;
-         
+
          transform: scale(1.08);
         }
         @media only screen and (max-width: 43.75em) {
@@ -1311,15 +1312,15 @@ transition: all .5s;
                 @media only screen and (max-width: 31.25em) {
                   font-size: 3rem;
                 }
-                
+
       }
-      
+
       &__form{
     display: flex;
     flex-direction: column;
     margin-top: 3rem;
       }
-       
+
       &__input2{
         width: 50vw;
         margin-bottom: 2rem;
@@ -1335,7 +1336,7 @@ transition: all .5s;
       width: 75vw;
         }
       }
-       
+
       &__input{
         width: 50vw;
         margin-bottom: 2rem;
@@ -1351,15 +1352,15 @@ transition: all .5s;
       width: 75vw;
         }
       }
-    
-       
+
+
       &__button{
         width: 50vw;
      font-size: 1.7rem;
         text-transform: capitalize;
         font-weight: 550;
         height: 4rem;
-       
+
         border-radius: .4rem;
         animation: set5 20s linear infinite ;
         cursor: pointer;
@@ -1370,31 +1371,31 @@ transition: all .5s;
       }
 
 
-      
+
 
 @keyframes set6 {
   0% {
-    
+
     border-top: .5rem solid rgb(174, 233, 12);
-    
+
   }
   10% {
     border-top: .5rem solid  rgb(172, 15, 219);
-   
+
   }
 
   20% {
-   
+
     border-top: .5rem solid  rgb(255, 196, 0);
-   
+
   }
   30% {
-  
+
     border-top: .5rem solid  rgb(233, 13, 167);
-   
+
   }
   40% {
-   
+
     border-top: .5rem solid  rgb(247, 64, 9);
 
   }
@@ -1405,7 +1406,7 @@ transition: all .5s;
 
   60% {
     border-top: .5rem solid rgb(31, 7, 248);
-   
+
   }
 70% {
   border-top: .5rem solid  crimson;
@@ -1419,10 +1420,10 @@ transition: all .5s;
 
 
   90% {
-  
+
     border-top: .5rem solid  rgb(250, 8, 28);
-  
- 
+
+
   }
   100% {
     border-top: .5rem solid  rgb(231, 9, 202);
@@ -1430,8 +1431,8 @@ transition: all .5s;
   }
 
 
-  
-  
+
+
 }
 
 
@@ -1441,77 +1442,77 @@ transition: all .5s;
       &__{
 
       }
-    
-       
+
+
       &__{
-        
+
       }
-    
-       
+
+
       &__{
-        
+
       }
-      
+
       &__{
-    
+
       }
-    
-       
+
+
       &__{
-        
+
       }
-    
-       
-      &__{
-      }
-      &__{
-      }
-    
-       
-      &__{
-        
-      }
-    
-       
-      &__{
-        
-      }
-      
-      &__{
-    
-      }
-    
-       
-      &__{
-        
-      }
-    
-       
+
+
       &__{
       }
       &__{
       }
-    
-       
+
+
       &__{
-        
+
       }
-    
-       
+
+
       &__{
-        
+
       }
-      
+
       &__{
-    
+
       }
-    
-       
+
+
       &__{
-        
+
       }
-    
-       
+
+
+      &__{
+      }
+      &__{
+      }
+
+
+      &__{
+
+      }
+
+
+      &__{
+
+      }
+
+      &__{
+
+      }
+
+
+      &__{
+
+      }
+
+
       &__{
       }
 
