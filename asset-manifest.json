@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6d8a7d84.css",
-    "main.js": "/portfolio/static/js/main.2718b0fc.js",
+    "main.js": "/portfolio/static/js/main.af621cfc.js",
     "static/media/15.jpg": "/portfolio/static/media/15.701c3f7ad50ceaeff751.jpg",
     "static/media/16.jpg": "/portfolio/static/media/16.de5659898d3bfc5eb8ea.jpg",
     "static/media/warrior-kneeling-wallpaper-2560x2048_33.jpg": "/portfolio/static/media/warrior-kneeling-wallpaper-2560x2048_33.c4b62eec7da1f9fe3292.jpg",
@@ -11,10 +11,10 @@
     "static/media/dancing-script-vietnamese-400-normal.woff2": "/portfolio/static/media/dancing-script-vietnamese-400-normal.b88a103c555f42370db3.woff2",
     "index.html": "/portfolio/index.html",
     "main.6d8a7d84.css.map": "/portfolio/static/css/main.6d8a7d84.css.map",
-    "main.2718b0fc.js.map": "/portfolio/static/js/main.2718b0fc.js.map"
+    "main.af621cfc.js.map": "/portfolio/static/js/main.af621cfc.js.map"
   },
   "entrypoints": [
     "static/css/main.6d8a7d84.css",
-    "static/js/main.2718b0fc.js"
+    "static/js/main.af621cfc.js"
   ]
 }
